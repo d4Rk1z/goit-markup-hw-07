@@ -74,7 +74,7 @@ body {
     font-size: 18px;
     line-height: 1.2;
     color: var(--color--logo);
-    margin: 0 93px 0 0;
+    margin-right: 120px;
     text-decoration: none;
     padding: 24px 0 25px 0;
     display: block;
@@ -91,7 +91,13 @@ body {
 
 .nav-container {
     display: flex;
-    margin-right: auto;
+    margin-right: 332px;
+}
+
+@media  only screen and (max-width: 1199px) {
+    .nav-container {
+        margin-right: 121px;
+    }
 }
 
 @media  only screen and (max-width: 767px) {
@@ -256,7 +262,7 @@ body {
 }
 
 .li-devstudio {
-    margin-right: 30px;
+    margin-right: 40px;
     display: flex;
 }
 
